@@ -1,0 +1,48 @@
+#!/usr/bin/env python
+
+import os.path
+from os import listdir
+from os.path import isfile, join, relpath, realpath
+import calendar
+import time
+
+localhome = "home"
+homefiles = [f for f in listdir(localhome) if isfile(join(localhome, f))]
+
+home=os.environ["HOME"]
+
+for fname in homefiles:
+	print("")
+
+	source=relpath(join(localhome, fname), home)
+	dest=join(home, fname) 
+	print "Creating a link to: " + source 
+	print "From: " + dest
+
+	# Check for existing file.  If it's a correct symlink, leave it; if it's wrong, rename it.
+	needToInspect=os.path.exists(dest)
+
+	# needToInspect is false at this point if the file doesn't exist OR if it's a broken symlink...
+	# NOTE: os.readlink will throw if it's called against a nonexistent file OR A REAL FILE.
+	if not(needToInspect):
+		try:
+			os.readlink(dest)
+			needToInspect=True
+		except OSError, e:
+			needToInspect=False
+		
+	if needToInspect: 
+		currentlink=relpath(realpath(dest), home)
+		if currentlink == source:
+			print("Correct link exists")
+			continue
+		else:
+			datestring=str(calendar.timegm(time.gmtime()))
+			newname=dest+"-"+datestring
+			print "Renaming from " + dest + " to " + newname
+			os.rename(dest, newname)
+
+	# Create the symlink
+	os.symlink(source, dest)
+	
+print("")

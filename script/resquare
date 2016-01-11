@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# Take a square image file, and resize to either the specified new size, or else to all icon sizes expected by Xcode.
+# Depends upon the ImageMagick toolkit: brew install imagemagick
+# -- MTC 2016-01-10
+
+# Fail if no args exist
+if [ $# -lt 1 ]; then
+	echo "Usage: resquare [filename] ([newsize])"
+  exit 1
+fi
+
+# Fail if the file name contains spaces
+PATTERN=" "
+if [[ $1 =~ $PATTERN ]]; then
+  echo "File names with spaces are unsupported.  Please rename and re-run."
+  exit 1
+fi
+
+# Test for existence of 'convert' utility
+hash convert 2>/dev/null || { echo >&2 "This script requires the Imagemagick 'convert' utility.  Aborting."; exit 1; }
+
+# If no size is provided, then run for all necessary sizes
+if [ $# -eq 1 ]; then
+  SIZES=( 29 40 58 76 80 87 120 152 167 180 )
+
+  for (( i=0; i<${#SIZES[@]};i++)); do
+    SIZE=${SIZES[${i}]}
+    resquare $1 $SIZE
+  done
+
+  exit 0
+fi
+
+
+FILENAME="$1"
+NEWSIZE="$2"
+
+BASENAME=$(basename $FILENAME)
+EXTENSION="${BASENAME##*.}"
+BASENAME="${BASENAME%.*}"
+DIRNAME=$(dirname $FILENAME)
+
+NEWNAME=$DIRNAME"/"$BASENAME"-"$NEWSIZE"px."$EXTENSION
+
+echo Creating file $NEWNAME"..."
+
+convert $FILENAME -resize $NEWSIZE"x"$NEWSIZE $NEWNAME
