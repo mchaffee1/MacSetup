@@ -2,51 +2,71 @@
 
 import os.path
 from os import listdir
-from os.path import isfile, join, relpath, realpath
+from os.path import isfile, join, relpath, realpath, abspath
 import calendar
 import time
 
-# place symlinks in $HOME for each file in config/home
-localhome = "config/home"
-homefiles = [(localhome, f) for f in listdir(localhome) if isfile(join(localhome, f))]
+def main():
+  userHome=os.environ["HOME"]
 
-# place a symlink in $HOME for the script directory
-homefiles.append((".", "script"))
+  # place symlinks in $HOME for each file in config/home
+  configHome = "config/home"
+  filesToLink = [(configHome, f) for f in listdir(configHome) if isfile(join(configHome, f))]
 
-home=os.environ["HOME"]
+  # place a symlink in $HOME for the script directory
+  filesToLink.append((".", "script"))
 
-for homesite, fname in homefiles:
-	print("")
+  for sourceDir, fileName in filesToLink:
+    source=abspath(join(sourceDir, fileName)) # relative path from $HOME to the file to link
+    dest=userHome # join(userHome, fileName) # path and name of the link to create
 
-	source=relpath(join(homesite, fname), home)
-	dest=join(home, fname) 
-	print "Creating a link to: " + source 
-	print "From: " + dest
+    setSymlink(source, dest)
 
-	# Check for existing file.  If it's a correct symlink, leave it; if it's wrong, rename it.
-	needToInspect=os.path.exists(dest)
+  print("")
 
-	# needToInspect is false at this point if the file doesn't exist OR if it's a broken symlink...
-	# NOTE: os.readlink will throw if it's called against a nonexistent file OR A REAL FILE.
-	if not(needToInspect):
-		try:
-			os.readlink(dest)
-			needToInspect=True
-		except OSError, e:
-			needToInspect=False
-		
-	if needToInspect: 
-		currentlink=relpath(realpath(dest), home)
-		if currentlink == source:
-			print("Correct link exists")
-			continue
-		else:
-			datestring=str(calendar.timegm(time.gmtime()))
-			newname=dest+"-"+datestring
-			print "Renaming from " + dest + " to " + newname
-			os.rename(dest, newname)
 
-	# Create the symlink
-	os.symlink(source, dest)
-	
-print("")
+# Create a symlink in DIRECTORY dest which points to src.
+# If a file or symlink already exists at dest, rename to [filename]-[date seconds]
+# src should contain an absolute path, as this function will determine the relative path.
+def setSymlink(src, dest):
+  print("")
+
+  print "Creating a link to: " + src
+  print "From: " + dest
+
+  srcDir, srcFile = os.path.split(src)
+  relPath = relpath(src, dest)
+  # print relPath
+
+  destName=os.path.join(dest, srcFile)
+  # Check for existing file.  If it's a correct symlink, leave it; if it's wrong, rename it.
+  needToInspect=os.path.exists(destName)
+
+  # needToInspect is false at this point if the file doesn't exist OR if it's a broken symlink...
+  # NOTE: os.readlink will throw if it's called against a nonexistent file OR A REAL (non symlink) FILE.
+  if not(needToInspect):
+    try:
+      os.readlink(destName)
+      needToInspect=True
+    except OSError, e:
+      needToInspect=False
+    
+  if needToInspect: 
+    currentlink=relpath(realpath(destName), dest) # relative path of the real path of the existing symlink
+    # print currentlink
+    if currentlink == relPath:
+      print("Correct link exists")
+      return
+    else:
+      datestring=str(calendar.timegm(time.gmtime()))
+      newname=destName+"-"+datestring
+      print "Renaming from " + destName + " to " + newname
+      os.rename(dest, newname)
+
+  # Create the symlink
+  os.symlink(relPath, dest)
+  
+if __name__ == "__main__":
+  main()
+
+
