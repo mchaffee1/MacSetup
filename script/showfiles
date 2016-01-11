@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [[ $# -lt 1 || ($1 -ne "YES" && $1 -ne "NO") ]]; then
+  echo "usage: showfiles [YES|NO]"
+  exit 1
+fi
+
+defaults write com.apple.finder AppleShowAllFiles "$1"
+
+killall Finder
+
