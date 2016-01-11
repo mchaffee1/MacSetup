@@ -6,15 +6,19 @@ from os.path import isfile, join, relpath, realpath
 import calendar
 import time
 
-localhome = "home"
-homefiles = [f for f in listdir(localhome) if isfile(join(localhome, f))]
+# place symlinks in $HOME for each file in config/home
+localhome = "config/home"
+homefiles = [(localhome, f) for f in listdir(localhome) if isfile(join(localhome, f))]
+
+# place a symlink in $HOME for the script directory
+homefiles.append((".", "script"))
 
 home=os.environ["HOME"]
 
-for fname in homefiles:
+for homesite, fname in homefiles:
 	print("")
 
-	source=relpath(join(localhome, fname), home)
+	source=relpath(join(homesite, fname), home)
 	dest=join(home, fname) 
 	print "Creating a link to: " + source 
 	print "From: " + dest
