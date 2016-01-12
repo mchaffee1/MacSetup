@@ -64,10 +64,11 @@ def setSymlink(src, dest):
       datestring=str(calendar.timegm(time.gmtime()))
       newname=destName+"-"+datestring
       print "Renaming from " + destName + " to " + newname
-      os.rename(dest, newname)
+      os.rename(destName, newname)
 
   # Create the symlink
-  os.symlink(relPath, dest)
+  # print "relPath: "+relPath+"; dest: "+destName
+  os.symlink(relPath, destName)
   
 # If this file is being run as a script, then call the main() function.
 if __name__ == "__main__":
