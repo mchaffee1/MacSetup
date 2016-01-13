@@ -17,8 +17,8 @@ def main():
   filesToLink.append((".", "script"))
 
   for sourceDir, fileName in filesToLink:
-    source=abspath(join(sourceDir, fileName)) # relative path from $HOME to the file to link
-    dest=userHome # join(userHome, fileName) # path and name of the link to create
+    source=abspath(join(sourceDir, fileName)) # absolute path of the file to link
+    dest=userHome # path at which to create the link
 
     setSymlink(source, dest)
 
@@ -38,12 +38,15 @@ def setSymlink(src, dest):
   relPath = relpath(src, dest)
   # print relPath
 
+  # destName is the destination directory AND file name
   destName=os.path.join(dest, srcFile)
-  # Check for existing file.  If it's a correct symlink, leave it; if it's wrong, rename it.
+
+  # Check for an existing file with the proper name.
   needToInspect=os.path.exists(destName)
 
-  # needToInspect is false at this point if the file doesn't exist OR if it's a broken symlink...
+  # needToInspect is false at this point if the file doesn't exist OR if it's a broken symlink.
   # NOTE: os.readlink will throw if it's called against a nonexistent file OR A REAL (non symlink) FILE.
+  # THIS IS FINE because (a) we want needToInspect to be True in that case, and (b) won't happen cuz os.path.exists above.
   if not(needToInspect):
     try:
       os.readlink(destName)
@@ -67,6 +70,7 @@ def setSymlink(src, dest):
   # print "relPath: "+relPath+"; dest: "+destName
   os.symlink(relPath, destName)
   
+# If this file is being run as a script, then call the main() function.
 if __name__ == "__main__":
   main()
 
