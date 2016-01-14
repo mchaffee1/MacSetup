@@ -4,7 +4,8 @@
 # This script does all the "defaults write" work that otherwise I will
 # forget and have to google for hours.
 
-# Turn on key-repeat for IntelliJ community edition.  (for better vim)
+# Turn on key-repeat for JetBrains tools.  (for better vim)
+# https://gist.github.com/lsd/1e1826907ab7e49c536a
 defaults write com.jetbrains.intellij.ce ApplePressAndHoldEnabled -bool false
 defaults write com.jetbrains.PyCharm ApplePressAndHoldEnabled -bool false
 
