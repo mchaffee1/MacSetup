@@ -6,3 +6,5 @@
 
 # Turn on key-repeat for IntelliJ community edition.  (for better vim)
 defaults write com.jetbrains.intellij.ce ApplePressAndHoldEnabled -bool false
+defaults write com.jetbrains.PyCharm ApplePressAndHoldEnabled -bool false
+
