@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+# This script does all the "defaults write" work that otherwise I will
+# forget and have to google for hours.
+
+# Turn on key-repeat for IntelliJ community edition.  (for better vim)
+defaults write com.jetbrains.intellij.ce ApplePressAndHoldEnabled -bool false
