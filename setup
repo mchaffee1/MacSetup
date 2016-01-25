@@ -5,6 +5,7 @@ from os import listdir
 from os.path import isfile, join, relpath, realpath, abspath
 import calendar
 import time
+from subprocess import call
 
 def main():
   userHome=os.environ["HOME"]
@@ -23,6 +24,11 @@ def main():
     setSymlink(source, dest)
 
   print("")
+
+  print "Configuring global gitignore..."
+  call(["git", "config", "--global", "core.excludesfile", "'~/.gitignore'"])
+  print("")
+
 
 
 # Create a symlink in DIRECTORY dest which points to src.
@@ -69,7 +75,7 @@ def setSymlink(src, dest):
   # Create the symlink
   # print "relPath: "+relPath+"; dest: "+destName
   os.symlink(relPath, destName)
-  
+
 # If this file is being run as a script, then call the main() function.
 if __name__ == "__main__":
   main()
