@@ -1,3 +1,9 @@
 [submodule "plugin/XVim"]
 	path = plugin/XVim
 	url = git@github.com:XVimProject/XVim.git
+[submodule "plugin/nerdtree"]
+	path = plugin/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "config/.vim/bundle/nerdtree"]
+	path = config/.vim/bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
