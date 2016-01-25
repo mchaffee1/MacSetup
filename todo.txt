@@ -1,0 +1,6 @@
+Need to add pathogen and NERDTree install to MacSetup/setup script.
+
+Create "deprecate" script that turns file.ext into file-yyyymmdd.ext (break out from setup script)
+
+Create .vim/autoload and bundles directories and add linking to setup script
+

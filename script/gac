@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# git add .; git commit -m "$1"
+# -- 23-Jan-2016 MTC
+
+# Fail if no args exist
+if [ $# -lt 1 ]; then
+	echo "Usage: gac [message]"
+  exit 1
+fi
+
+git add .
+git commit -m "$1"
