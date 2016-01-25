@@ -26,7 +26,7 @@ def main():
   print("")
 
   print "Configuring global gitignore..."
-  call(["git", "config", "--global", "core.excludesfile", "'~/.gitignore'"])
+  call(["git", "config", "--global", "core.excludesfile", "~/.gitignore"])
   print("")
 
 
