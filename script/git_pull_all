@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# This script, executed in the root of a git repository, will fetch, pull,
+# and track all branches at "origin."
+
+for remote in `git branch -r`; do git branch --track $remote; done
+git fetch --all
+git pull --all
+

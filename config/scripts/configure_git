@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+git config --global merge.commit no
+git config --global merge.ff no
