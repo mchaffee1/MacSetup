@@ -3,3 +3,6 @@ alias a='alias'
 
 a lh'=ls -lastrh'
 a cl='clear'
+
+# handy git aliases
+a gdh='git diff HEAD'
