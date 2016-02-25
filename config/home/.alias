@@ -4,4 +4,7 @@ alias a='alias'
 a lh'=ls -lastrh'
 a cl='clear'
 
+# handy git aliases
 a gdh='git diff HEAD'
+a gl='git log'
+a glp='git log -p'
