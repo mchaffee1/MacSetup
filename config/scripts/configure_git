@@ -3,3 +3,5 @@
 git config --global merge.commit no
 git config --global merge.ff yes
 git config --global push.default simple
+git config --global pull.rebase true
+
