@@ -8,7 +8,6 @@ brew install bash-git-prompt
 brew install ruby
 brew install python
 brew install imagemagick
-brew install vagrant
 brew install ansible
 brew cask install sublime-text
 brew cask install appcode
@@ -16,6 +15,7 @@ brew cask install google-chrome
 brew cask install sourcetree
 brew cask install slack
 brew cask install VirtualBox
+brew cask install vagrant
 brew cask install torbrowser
 brew cask install backblaze
 
