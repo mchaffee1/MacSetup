@@ -4,11 +4,15 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew update
 
+brew upgrade
+
 brew install bash-git-prompt
 brew install ruby
 brew install python
 brew install imagemagick
 brew install ansible
+brew install tig
+brew install cowsay
 brew cask install sublime-text
 brew cask install appcode
 brew cask install google-chrome
