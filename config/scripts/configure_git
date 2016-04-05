@@ -5,3 +5,7 @@ git config --global merge.ff yes
 git config --global push.default simple
 git config --global pull.rebase true
 
+git config --global alias.co checkout
+git config --global alias.pr 'pull --rebase'
+git config --global alias.st status
+
