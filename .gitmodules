@@ -7,3 +7,6 @@
 [submodule "config/.vim/bundle/nerdtree"]
 	path = config/.vim/bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
+[submodule "plugin/dracula-theme"]
+	path = plugin/dracula-theme
+	url = https://github.com/zenorocha/dracula-theme/
