@@ -22,4 +22,5 @@ brew cask install virtualbox
 brew cask install vagrant
 brew cask install torbrowser
 brew cask install backblaze
+brew cask install screenhero
 
