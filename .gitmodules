@@ -4,9 +4,9 @@
 [submodule "plugin/nerdtree"]
 	path = plugin/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
-[submodule "config/.vim/bundle/nerdtree"]
-	path = config/.vim/bundle/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
 [submodule "plugin/dracula-theme"]
 	path = plugin/dracula-theme
 	url = https://github.com/zenorocha/dracula-theme/
+[submodule "plugin/vim-pathogen"]
+	path = plugin/vim-pathogen
+	url = git@github.com:tpope/vim-pathogen.git
