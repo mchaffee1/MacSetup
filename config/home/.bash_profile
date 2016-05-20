@@ -4,7 +4,7 @@ export PATH="$HOME/script:$PATH"
 TMP="$HOME/tmp"
 DEV="$HOME/Develop"
 
-source .alias
+source ~/.alias
 
 
   if [ -f "$(brew --prefix bash-git-prompt)/share/gitprompt.sh" ]; then
