@@ -13,15 +13,20 @@ brew install imagemagick
 brew install python
 brew install ruby
 brew install tig
+brew install watch
 brew cask install appcode
 brew cask install backblaze
 brew cask install backblaze
 brew cask install flux
 brew cask install google-chrome
 brew cask install screenhero
+brew cask install sequel-pro
 brew cask install slack
 brew cask install sourcetree
 brew cask install sublime-text
 brew cask install torbrowser
 brew cask install vagrant
 brew cask install virtualbox
+
+brew tap thoughtbot/formulae
+brew install gitsh
