@@ -12,3 +12,4 @@ source ~/.alias
     source "$(brew --prefix bash-git-prompt)/share/gitprompt.sh"
   fi
 
+alias gts="gst"
