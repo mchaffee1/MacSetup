@@ -16,7 +16,6 @@ brew install tig
 brew install watch
 brew cask install appcode
 brew cask install backblaze
-brew cask install backblaze
 brew cask install flux
 brew cask install google-chrome
 brew cask install screenhero
