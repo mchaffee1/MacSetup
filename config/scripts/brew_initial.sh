@@ -11,6 +11,7 @@ brew install bash-git-prompt
 brew install cowsay
 brew install imagemagick
 brew install python
+brew install pyenv
 brew install ruby
 brew install tig
 brew install watch
