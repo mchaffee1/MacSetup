@@ -15,4 +15,5 @@ defaults write com.jetbrains.PhpStorm ApplePressAndHoldEnabled -bool false
 
 defaults write com.jetbrains.AppCode ApplePressAndHoldEnabled -bool false
 
-
+defaults write com.jetbrains.intellij.ce ApplePressAndHoldEnabled -bool false
+defaults write com.jetbrains.intellij ApplePressAndHoldEnabled -bool false
