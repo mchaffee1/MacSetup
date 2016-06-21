@@ -15,10 +15,12 @@ brew install pyenv
 brew install ruby
 brew install tig
 brew install watch
+brew cask install android-studio
 brew cask install appcode
 brew cask install backblaze
 brew cask install flux
 brew cask install google-chrome
+brew cask install intellij-idea
 brew cask install screenhero
 brew cask install sequel-pro
 brew cask install slack
