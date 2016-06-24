@@ -9,12 +9,16 @@ brew upgrade
 brew install ansible
 brew install bash-git-prompt
 brew install cowsay
+brew install exercism
+brew install gradle
 brew install imagemagick
+brew install leiningen
 brew install python
 brew install pyenv
 brew install ruby
 brew install tig
 brew install watch
+brew cask install aerial
 brew cask install android-studio
 brew cask install appcode
 brew cask install backblaze
@@ -25,6 +29,7 @@ brew cask install screenhero
 brew cask install sequel-pro
 brew cask install slack
 brew cask install sourcetree
+brew cask install spectacle
 brew cask install sublime-text
 brew cask install torbrowser
 brew cask install vagrant
