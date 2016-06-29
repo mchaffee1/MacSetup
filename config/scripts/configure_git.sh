@@ -11,7 +11,7 @@ git config --global format.pretty format:"%h %C(yellow)%ci%C(reset) %C(green)%an
 git config --global alias.cm 'commit -m'
 git config --global alias.co checkout
 git config --global alias.dc 'diff --cached'
-git config --global alias.dh 'diff --head'
+git config --global alias.dh 'diff head'
 git config --global alias.pr 'pull --rebase'
 git config --global alias.rc 'rebase --continue'
 git config --global alias.st status

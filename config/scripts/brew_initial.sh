@@ -10,13 +10,16 @@ brew install ansible
 brew install bash-git-prompt
 brew install cowsay
 brew install exercism
+brew install git
+brew install gitsh
 brew install gradle
 brew install imagemagick
 brew install leiningen
-brew install python
 brew install pyenv
+brew install python
 brew install ruby
 brew install tig
+brew install tmux
 brew install watch
 brew cask install aerial
 brew cask install android-studio
@@ -25,6 +28,8 @@ brew cask install backblaze
 brew cask install flux
 brew cask install google-chrome
 brew cask install intellij-idea
+brew cask install iterm2
+brew cask install lastpass
 brew cask install screenhero
 brew cask install sequel-pro
 brew cask install slack
