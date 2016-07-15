@@ -13,5 +13,4 @@ defaults write com.jetbrains.PhpStorm ApplePressAndHoldEnabled -bool false
 defaults write com.jetbrains.PyCharm ApplePressAndHoldEnabled -bool false
 defaults write com.jetbrains.intellij ApplePressAndHoldEnabled -bool false
 defaults write com.jetbrains.intellij.ce ApplePressAndHoldEnabled -bool false
-defaults write com.jetbrains.intellij.ce ApplePressAndHoldEnabled -bool false
 defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false
