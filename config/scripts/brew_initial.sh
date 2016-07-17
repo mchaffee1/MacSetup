@@ -6,6 +6,7 @@ brew update
 
 brew upgrade
 
+brew install android-platform-tools
 brew install ansible
 brew install bash-git-prompt
 brew install cowsay
