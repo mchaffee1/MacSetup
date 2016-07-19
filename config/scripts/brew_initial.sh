@@ -26,6 +26,7 @@ brew cask install aerial
 brew cask install android-studio
 brew cask install appcode
 brew cask install backblaze
+brew cask install bonjour-browser
 brew cask install flux
 brew cask install google-chrome
 brew cask install intellij-idea
