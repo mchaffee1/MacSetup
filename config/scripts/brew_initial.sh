@@ -8,6 +8,7 @@ brew upgrade
 
 brew install android-platform-tools
 brew install ansible
+brew install awscli
 brew install bash-git-prompt
 brew install cowsay
 brew install exercism
@@ -16,6 +17,7 @@ brew install gitsh
 brew install gradle
 brew install imagemagick
 brew install leiningen
+brew install node
 brew install pyenv
 brew install python
 brew install ruby
@@ -32,6 +34,7 @@ brew cask install google-chrome
 brew cask install intellij-idea
 brew cask install iterm2
 brew cask install lastpass
+brew cask install p4merge
 brew cask install screenhero
 brew cask install sequel-pro
 brew cask install slack
