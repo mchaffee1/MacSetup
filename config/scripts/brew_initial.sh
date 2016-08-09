@@ -35,6 +35,7 @@ brew cask install intellij-idea
 brew cask install iterm2
 brew cask install lastpass
 brew cask install p4merge
+brew cask install postman
 brew cask install screenhero
 brew cask install sequel-pro
 brew cask install slack
