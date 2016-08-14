@@ -10,6 +10,7 @@ brew install android-platform-tools
 brew install ansible
 brew install awscli
 brew install bash-git-prompt
+brew install carthage
 brew install cowsay
 brew install exercism
 brew install git
