@@ -22,6 +22,7 @@ brew install node
 brew install pyenv
 brew install python
 brew install ruby
+brew install scala
 brew install tig
 brew install tmux
 brew install watch
