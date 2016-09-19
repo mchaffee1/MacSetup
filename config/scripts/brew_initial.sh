@@ -31,6 +31,7 @@ brew cask install android-studio
 brew cask install appcode
 brew cask install backblaze
 brew cask install bonjour-browser
+brew cask install calibre
 brew cask install flux
 brew cask install google-chrome
 brew cask install intellij-idea
@@ -38,6 +39,7 @@ brew cask install iterm2
 brew cask install lastpass
 brew cask install p4merge
 brew cask install postman
+brew cask install razorsql
 brew cask install screenhero
 brew cask install sequel-pro
 brew cask install slack
@@ -50,3 +52,6 @@ brew cask install virtualbox
 
 brew tap thoughtbot/formulae
 brew install gitsh
+
+brew cleanup
+brew cask cleanup
