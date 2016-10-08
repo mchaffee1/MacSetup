@@ -37,6 +37,7 @@ brew cask install google-chrome
 brew cask install intellij-idea
 brew cask install iterm2
 brew cask install lastpass
+brew cask install pandora
 brew cask install p4merge
 brew cask install postman
 brew cask install razorsql
@@ -55,3 +56,5 @@ brew install gitsh
 
 brew cleanup
 brew cask cleanup
+
+npm install -g wscat
