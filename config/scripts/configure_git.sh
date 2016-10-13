@@ -20,3 +20,5 @@ git config --global alias.st status
 git config --global alias.lp 'log -p'
 git config --global alias.ls 'log --stat'
 git config --global alias.logs 'log -n 20'
+git config --global alias.cgrep '!f() { git log --format=%H --grep=$1; }; f'
+git config --global alias.cshow '!f() { git show `git cgrep $1`; }; f'
