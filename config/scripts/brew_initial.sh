@@ -12,6 +12,8 @@ brew install awscli
 brew install bash-git-prompt
 brew install carthage
 brew install cowsay
+brew install docker
+brew install docker-compose
 brew install exercism
 brew install git
 brew install gitsh
@@ -19,6 +21,7 @@ brew install gradle
 brew install imagemagick
 brew install leiningen
 brew install node
+brew install postgresql
 brew install pyenv
 brew install python
 brew install ruby
@@ -47,6 +50,7 @@ brew cask install slack
 brew cask install sourcetree
 brew cask install spectacle
 brew cask install sublime-text
+brew cask install teamviewer
 brew cask install torbrowser
 brew cask install vagrant
 brew cask install virtualbox
@@ -58,3 +62,4 @@ brew cleanup
 brew cask cleanup
 
 npm install -g wscat
+npm install -g mountebank
