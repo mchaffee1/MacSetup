@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+INTF=${1:-en0}
+
+networksetup -setairportpower $INTF off 
+sleep 1
+networksetup -setairportpower $INTF on

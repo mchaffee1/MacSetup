@@ -49,6 +49,7 @@ brew cask install sequel-pro
 brew cask install slack
 brew cask install sourcetree
 brew cask install spectacle
+brew cask install spotify
 brew cask install sublime-text
 brew cask install teamviewer
 brew cask install torbrowser
