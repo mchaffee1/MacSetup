@@ -3,6 +3,7 @@ alias a='alias'
 
 a lh'=ls -lastrh'
 a cl='clear'
+a cwf='cyclewifi'
 
 # handy git aliases
 a gcm='git commit -m'
