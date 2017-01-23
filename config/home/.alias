@@ -1,7 +1,8 @@
 
 alias a='alias'
 
-a lh'=ls -lastrh'
+a lh='ls -lastrh'
+a ll='ls -l'
 a cl='clear'
 a cwf='cyclewifi'
 a where='networksetup -getcurrentlocation'
