@@ -24,4 +24,5 @@ git config --global alias.pr 'pull --rebase'
 git config --global alias.rc 'rebase --continue'
 git config --global alias.spsp 'stash && pull && stash pop'
 git config --global alias.st status
+git config --global alias.shove push
 
