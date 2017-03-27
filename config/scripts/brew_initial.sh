@@ -18,6 +18,7 @@ brew install exercism
 brew install git
 brew install gitsh
 brew install gradle
+brew install htop
 brew install imagemagick
 brew install leiningen
 brew install node
@@ -28,6 +29,7 @@ brew install ruby
 brew install scala
 brew install tig
 brew install tmux
+brew install vapor/tap/toolbox
 brew install watch
 brew cask install aerial
 brew cask install android-studio
@@ -37,9 +39,11 @@ brew cask install bonjour-browser
 brew cask install calibre
 brew cask install flux
 brew cask install google-chrome
+brew cask install google-drive
 brew cask install intellij-idea
 brew cask install iterm2
 brew cask install lastpass
+brew cask install keepassx
 brew cask install pandora
 brew cask install p4merge
 brew cask install postman
@@ -50,6 +54,7 @@ brew cask install slack
 brew cask install sourcetree
 brew cask install spectacle
 brew cask install spotify
+brew cask install squirrelsql
 brew cask install sublime-text
 brew cask install teamviewer
 brew cask install torbrowser
@@ -64,3 +69,4 @@ brew cask cleanup
 
 npm install -g wscat
 npm install -g mountebank
+
