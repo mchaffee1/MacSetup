@@ -16,6 +16,7 @@ git config --global alias.co checkout
 git config --global alias.cshow '!f() { git show `git cgrep $1`; }; f'
 git config --global alias.dc 'diff --cached'
 git config --global alias.dh 'diff head'
+git config --global alias.ds 'diff --stat'
 git config --global alias.logs 'log -n 20'
 git config --global alias.lp 'log -p'
 git config --global alias.ls 'log --stat'
