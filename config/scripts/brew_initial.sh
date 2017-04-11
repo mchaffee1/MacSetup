@@ -20,6 +20,7 @@ brew install gitsh
 brew install gradle
 brew install htop
 brew install imagemagick
+brew install jq
 brew install leiningen
 brew install node
 brew install postgresql
@@ -29,8 +30,10 @@ brew install ruby
 brew install scala
 brew install tig
 brew install tmux
-brew install vapor/tap/toolbox
 brew install watch
+
+brew install vapor/tap/toolbox
+
 brew cask install aerial
 brew cask install android-studio
 brew cask install appcode
