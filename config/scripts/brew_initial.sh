@@ -40,6 +40,7 @@ brew cask install appcode
 brew cask install backblaze
 brew cask install bonjour-browser
 brew cask install calibre
+brew cask install fastlane
 brew cask install flux
 brew cask install google-chrome
 brew cask install google-drive
