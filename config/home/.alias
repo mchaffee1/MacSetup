@@ -5,6 +5,7 @@ a lh='ls -lastrh'
 a ll='ls -l'
 a cl='clear'
 a cwf='cyclewifi'
+a dh='du -h -d'
 a where='networksetup -getcurrentlocation'
 
 # handy git aliases
