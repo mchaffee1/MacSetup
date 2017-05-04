@@ -1,4 +1,5 @@
 
+export PATH="$HOME/.fastlane/bin:$PATH"
 export PATH="$HOME/script:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
