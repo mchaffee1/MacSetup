@@ -20,6 +20,7 @@ brew install gitsh
 brew install gradle
 brew install htop
 brew install imagemagick
+brew install jenkins
 brew install jq
 brew install leiningen
 brew install node
@@ -44,6 +45,7 @@ brew cask install fastlane
 brew cask install flux
 brew cask install google-chrome
 brew cask install google-drive
+brew cask install hipchat
 brew cask install intellij-idea-ce
 brew cask install iterm2
 brew cask install lastpass
