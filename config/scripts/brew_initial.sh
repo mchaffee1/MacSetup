@@ -48,6 +48,7 @@ brew cask install flux
 brew cask install google-chrome
 brew cask install google-drive
 brew cask install hipchat
+brew cask install insomnia
 brew cask install intellij-idea-ce
 brew cask install iterm2
 brew cask install lastpass
