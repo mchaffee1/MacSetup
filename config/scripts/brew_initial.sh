@@ -11,6 +11,7 @@ brew install ansible
 brew install awscli
 brew install bash-git-prompt
 brew install carthage
+brew install cloc
 brew install cowsay
 brew install docker
 brew install docker-compose
@@ -29,6 +30,7 @@ brew install pyenv
 brew install python
 brew install ruby
 brew install scala
+brew install swiftlint
 brew install tig
 brew install tmux
 brew install watch
