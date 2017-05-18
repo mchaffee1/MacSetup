@@ -15,6 +15,7 @@ git config --global alias.cane 'commit --amend --no-edit'
 git config --global alias.cgrep '!f() { git log --format=%H --grep=$1; }; f'
 git config --global alias.cm 'commit -m'
 git config --global alias.co checkout
+git config --global alias.cop 'checkout -p'
 git config --global alias.cshow '!f() { git show `git cgrep $1`; }; f'
 git config --global alias.dc 'diff --cached'
 git config --global alias.dh 'diff head'
