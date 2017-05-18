@@ -40,6 +40,7 @@ brew install vapor/tap/toolbox
 brew cask install aerial
 brew cask install android-studio
 brew cask install appcode
+brew cask install appium
 brew cask install backblaze
 brew cask install bonjour-browser
 brew cask install calibre
