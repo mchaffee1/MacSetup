@@ -8,6 +8,11 @@ a cwf='cyclewifi'
 a dh='du -h -d'
 a where='networksetup -getcurrentlocation'
 
+# I ❤️  fastlane
+a flt='fastlane test'
+a fp='fastlane pods'
+a fu='fastlane update_fastlane'
+
 # handy git aliases
 a gcm='git commit -m'
 a gdc='git diff --cached'

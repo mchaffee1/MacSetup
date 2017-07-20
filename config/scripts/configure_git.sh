@@ -27,6 +27,7 @@ git config --global alias.ls 'log --stat'
 git config --global alias.mf 'merge --ff-only'
 git config --global alias.pr 'pull --rebase'
 git config --global alias.rc 'rebase --continue'
+git config --global alias.rh 'reset HEAD'
 git config --global alias.spsp 'stash && pull && stash pop'
 git config --global alias.st status
 git config --global alias.shove push
