@@ -35,12 +35,13 @@ brew install tig
 brew install tmux
 brew install watch
 
-brew install vapor/tap/toolbox
+brew install vapor/tap/vapor
 
 brew cask install aerial
 brew cask install android-studio
 brew cask install appcode
 brew cask install appium
+brew cask install atom
 brew cask install backblaze
 brew cask install bonjour-browser
 brew cask install calibre
@@ -70,6 +71,7 @@ brew cask install teamviewer
 brew cask install torbrowser
 brew cask install vagrant
 brew cask install virtualbox
+brew cask install wireshark
 
 brew tap thoughtbot/formulae
 brew install gitsh
