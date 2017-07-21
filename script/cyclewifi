@@ -2,6 +2,9 @@
 
 INTF=${1:-en0}
 
+echo "stopping wifi..."
 networksetup -setairportpower $INTF off 
 sleep 1
+echo "starting wifi..."
 networksetup -setairportpower $INTF on
+echo "done"
