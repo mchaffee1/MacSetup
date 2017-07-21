@@ -15,6 +15,7 @@ a fu='fastlane update_fastlane'
 
 # handy git aliases
 a gcm='git commit -m'
+a gd='git diff'
 a gdc='git diff --cached'
 a gdh='git diff HEAD'
 a gdom='git diff origin/master'
