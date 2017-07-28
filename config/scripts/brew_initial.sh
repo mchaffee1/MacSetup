@@ -24,6 +24,7 @@ brew install imagemagick
 brew install jenkins
 brew install jq
 brew install leiningen
+brew install neo4j
 brew install node
 brew install postgresql
 brew install pyenv
