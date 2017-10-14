@@ -19,11 +19,14 @@ brew install exercism
 brew install git
 brew install gitsh
 brew install gradle
+brew install graphviz
 brew install htop
 brew install imagemagick
 brew install jenkins
 brew install jq
 brew install leiningen
+brew install libpng
+brew install maven
 brew install neo4j
 brew install node
 brew install postgresql
