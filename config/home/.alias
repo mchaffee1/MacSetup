@@ -3,15 +3,21 @@ alias a='alias'
 
 a lh='ls -lastrh'
 a ll='ls -l'
+a lss='ls -lasSrh'
+a lx='exa -bghHliS'
 a cl='clear'
 a cwf='cyclewifi'
 a dh='du -h -d'
+a dhg='du -h -d 1 | grep G'
+a myip='ipconfig getifaddr en0'
+a realias='source ~/.alias'
 a where='networksetup -getcurrentlocation'
 
 # I ❤️  fastlane
-a flt='fastlane test'
-a fp='fastlane pods'
-a fu='fastlane update_fastlane'
+a fl='LC_ALL=en_us.UTF-8 fastlane'
+a flt='fl test'
+a fp='fl pods'
+a fu='fl update_fastlane'
 
 # handy git aliases
 a gcm='git commit -m'
