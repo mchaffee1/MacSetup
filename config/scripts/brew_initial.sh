@@ -15,6 +15,7 @@ brew install cloc
 brew install cowsay
 brew install docker
 brew install docker-compose
+brew install exa
 brew install exercism
 brew install git
 brew install gitsh
@@ -70,11 +71,11 @@ brew cask install sourcetree
 brew cask install spectacle
 brew cask install spotify
 brew cask install squirrelsql
-brew cask install sublime-text
 brew cask install teamviewer
 brew cask install torbrowser
 brew cask install vagrant
 brew cask install virtualbox
+brew cask install visual-studio-code
 brew cask install wireshark
 
 brew tap thoughtbot/formulae
