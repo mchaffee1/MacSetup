@@ -1,20 +1,26 @@
 
 alias a='alias'
 
-a lh='ls -lastrh'
-a ll='ls -l'
-a lss='ls -lasSrh'
-a lx='exa -bghHliS'
+a be='bundle exec'
 a cl='clear'
 a cwf='cyclewifi'
 a dh='du -h -d'
 a dhg='du -h -d 1 | grep G'
+a gw='./gradlew'
+a lh='ls -lastrh'
+a ll='ls -l'
+a lss='ls -lasSrh'
+a lx='exa -bghHliS'
 a myip='ipconfig getifaddr en0'
 a realias='source ~/.alias'
+a reindex='sudo mdutil -E /'
 a where='networksetup -getcurrentlocation'
+# a wifi='networksetup -setairportpower $INTF' # TODO make work
 
 # I ❤️  fastlane
-a fl='LC_ALL=en_us.UTF-8 fastlane'
+a fl='bundle exec fastlane'
+a flc='fl configure_project'
+a flr='fl reset_env_configs'
 a flt='fl test'
 a fp='fl pods'
 a fu='fl update_fastlane'
