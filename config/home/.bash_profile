@@ -2,6 +2,10 @@
 export PATH="$HOME/.fastlane/bin:$PATH"
 export PATH="$HOME/script:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+export GOPATH="$HOME/Develop/go"
 
 TMP="$HOME/tmp"
 DEV="$HOME/Develop"
