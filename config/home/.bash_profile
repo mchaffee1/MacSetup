@@ -1,3 +1,4 @@
+[ -r ~/.bashrc ] && . ~/.bashrc
 
 export PATH="$HOME/.fastlane/bin:$PATH"
 export PATH="$HOME/script:$PATH"
