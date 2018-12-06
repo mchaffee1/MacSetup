@@ -2,7 +2,7 @@
 alias a='alias'
 
 a be='bundle exec'
-a cl='clear'
+a cl="clear && printf '\e[3J'"
 a cwf='cyclewifi'
 a dh='du -h -d'
 a dhg='du -h -d 1 | grep G'
