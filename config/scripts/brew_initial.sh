@@ -17,8 +17,8 @@ brew install docker
 brew install docker-compose
 brew install exa
 brew install exercism
+brew install fish
 brew install git
-brew install gitsh
 brew install gradle
 brew install graphviz
 brew install htop
@@ -52,31 +52,21 @@ brew cask install bonjour-browser
 brew cask install calibre
 brew cask install fastlane
 brew cask install flux
-brew cask install google-chrome
-brew cask install google-drive
-brew cask install hipchat
 brew cask install insomnia
-brew cask install intellij-idea-ce
 brew cask install iterm2
 brew cask install lastpass
-brew cask install keepassx
-brew cask install pandora
 brew cask install p4merge
 brew cask install postman
-brew cask install razorsql
-brew cask install screenhero
-brew cask install sequel-pro
-brew cask install slack
 brew cask install sourcetree
 brew cask install spectacle
 brew cask install spotify
-brew cask install squirrelsql
 brew cask install teamviewer
 brew cask install torbrowser
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install wireshark
+brew cask install intellij-idea
 
 brew tap thoughtbot/formulae
 brew install gitsh
