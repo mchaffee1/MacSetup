@@ -4,6 +4,8 @@
 # This script does all the "defaults write" work that otherwise I will
 # forget and have to google for hours.
 
+defaults write com.apple.finder AppleShowAllFiles YES
+
 # Turn on key-repeat for JetBrains tools.  (for better vim)
 # https://gist.github.com/lsd/1e1826907ab7e49c536a
 
