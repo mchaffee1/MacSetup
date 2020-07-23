@@ -52,6 +52,9 @@ brew cask install wireshark
 brew tap thoughtbot/formulae
 brew install gitsh
 
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
+
 brew cleanup
 brew cask cleanup
 
