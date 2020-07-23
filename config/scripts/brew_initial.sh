@@ -35,19 +35,19 @@ brew cask install bonjour-browser
 brew cask install fastlane
 brew cask install flux
 brew cask install insomnia
+brew cask install intellij-idea
 brew cask install iterm2
 brew cask install lastpass
 brew cask install p4merge
 brew cask install postman
+brew cask install slack
 brew cask install spectacle
 brew cask install spotify
-brew cask install slack
 brew cask install torbrowser
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install wireshark
-brew cask install intellij-idea
 
 brew tap thoughtbot/formulae
 brew install gitsh
