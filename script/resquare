@@ -22,7 +22,7 @@ hash convert 2>/dev/null || { echo >&2 "This script requires the Imagemagick 'co
 
 # If no size is provided, then run for all necessary sizes
 if [ $# -eq 1 ]; then
-  SIZES=( 29 40 58 76 80 87 120 152 167 180 )
+  SIZES=( 20 29 40 58 60 76 80 87 120 152 167 180 1024 )
 
   for (( i=0; i<${#SIZES[@]};i++)); do
     SIZE=${SIZES[${i}]}
