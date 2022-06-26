@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: config/home/.profile
+  checksum: 8ce5964de893f43a3556bab0bfd1d04beb49fd474676e8dfc025e6f84a96607f
+version: "1.0"
