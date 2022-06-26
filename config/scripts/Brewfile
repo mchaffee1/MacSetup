@@ -90,6 +90,7 @@ cask "slack"
 cask "spectacle"
 cask "visual-studio-code"
 cask "webstorm"
+cask "zoom"
 mas "1Password for Safari", id: 1569813296
 mas "AdBlock", id: 1402042596
 mas "GarageBand", id: 682658836
