@@ -1,0 +1,3 @@
+# Ignore .config subfolders that aren't portably useful
+iterm2/
+
