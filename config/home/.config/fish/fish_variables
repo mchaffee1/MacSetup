@@ -38,4 +38,3 @@ SETUVAR fish_user_paths:/opt/homebrew/bin\x1e/opt/homebrew/sbin\x1e/Users/mchaff
 # Talisman
 SETUVAR --export TALISMAN_HOME:$HOME/.talisman/bin
 SETUVAR --export TALISMAN_INTERACTIVE:true
->>>>>>> origin/main
