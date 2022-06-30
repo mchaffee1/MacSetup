@@ -36,4 +36,3 @@ git config --global alias.spsp 'stash && pull && stash pop'
 git config --global alias.ss 'show --stat'
 git config --global alias.st status
 git config --global alias.shove push
-
