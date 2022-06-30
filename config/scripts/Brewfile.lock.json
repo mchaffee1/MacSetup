@@ -2266,6 +2266,12 @@
           "full_name": "flux"
         }
       },
+      "font-fira-code": {
+        "version": "6.2",
+        "options": {
+          "full_name": "font-fira-code"
+        }
+      },
       "gimp": {
         "version": "2.10.32",
         "options": {
@@ -2370,13 +2376,17 @@
       }
     },
     "mas": {
+      "1Password for Safari": {
+        "id": "1569813296",
+        "version": "2.3.6"
+      },
+      "AdBlock": {
+        "id": "1402042596",
+        "version": "1.28.2"
+      },
       "GarageBand": {
         "id": "682658836",
         "version": "10.4.6"
-      },
-      "iMovie": {
-        "id": "408981434",
-        "version": "10.3.3"
       },
       "Keynote": {
         "id": "409183694",
