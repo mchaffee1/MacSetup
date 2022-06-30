@@ -24,3 +24,4 @@ if [ -f "$(brew --prefix bash-git-prompt)/share/gitprompt.sh" ]; then
 fi
 
 eval "$(rbenv init -)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
