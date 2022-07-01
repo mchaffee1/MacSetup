@@ -178,7 +178,6 @@ tap homebrew/services
 tap homebrew/cask
 cask 1password
 cask 1password-cli
-cask adobe-acrobat-pro
 cask adoptopenjdk
 cask aerial
 cask android-platform-tools
