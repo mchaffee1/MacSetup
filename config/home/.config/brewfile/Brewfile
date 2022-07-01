@@ -27,6 +27,7 @@ brew exa
 brew exercism
 brew fb303
 brew fbthrift
+brew file-formula
 brew fish
 brew fizz
 brew fmt
@@ -79,6 +80,7 @@ brew libidn
 brew libidn2
 brew libksba
 brew liblqr
+brew libmagic
 brew libnghttp2
 brew libomp
 brew libpng
@@ -172,6 +174,7 @@ tap homebrew/cask-fonts
 cask font-fira-code
 
 tap homebrew/cask-versions
+cask adoptopenjdk8
 
 tap homebrew/services
 
