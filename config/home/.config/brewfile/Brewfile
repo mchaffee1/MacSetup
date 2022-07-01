@@ -1,0 +1,227 @@
+
+# tap repositories and their packages
+
+tap homebrew/core
+brew aom
+brew apache-spark
+brew autoconf
+brew awscli
+brew azure-cli
+brew bash-git-prompt
+brew bdw-gc
+brew boost
+brew brotli
+brew c-ares
+brew ca-certificates
+brew cairo
+brew carthage
+brew cloc
+brew cocoapods
+brew colima
+brew docbook
+brew docbook-xsl
+brew docker
+brew docker-compose
+brew double-conversion
+brew exa
+brew exercism
+brew fb303
+brew fbthrift
+brew fish
+brew fizz
+brew fmt
+brew folly
+brew fontconfig
+brew freetype
+brew fribidi
+brew gd
+brew gdbm
+brew gdk-pixbuf
+brew gettext
+brew gflags
+brew ghostscript
+brew giflib
+brew git
+brew glib
+brew glog
+brew gmp
+brew gnu-getopt
+brew gnupg
+brew gnutls
+brew gobject-introspection
+brew gradle
+brew graphite2
+brew graphviz
+brew gts
+brew guile
+brew harfbuzz
+brew htop
+brew icu4c
+brew imagemagick
+brew imath
+brew jasper
+brew jbig2dec
+brew jpeg
+brew jpeg-xl
+brew jq
+brew krb5
+brew kubernetes-cli
+brew leiningen
+brew libassuan
+brew libavif
+brew libde265
+brew libevent
+brew libffi
+brew libgcrypt
+brew libgpg-error
+brew libheif
+brew libidn
+brew libidn2
+brew libksba
+brew liblqr
+brew libnghttp2
+brew libomp
+brew libpng
+brew libpthread-stubs
+brew libraw
+brew librsvg
+brew libslirp
+brew libsodium
+brew libssh
+brew libtasn1
+brew libtiff
+brew libtool
+brew libunistring
+brew libusb
+brew libuv
+brew libvmaf
+brew libx11
+brew libxau
+brew libxcb
+brew libxdmcp
+brew libxext
+brew libxrender
+brew libyaml
+brew lima
+brew little-cms2
+brew lz4
+brew lzo
+brew m4
+brew mas
+brew maven
+brew mpdecimal
+brew ncurses
+brew netpbm
+brew nettle
+brew node
+brew npth
+brew oniguruma
+brew openexr
+brew openjdk
+brew openjdk@11
+brew openjpeg
+brew openshift-cli
+brew openssl@1.1
+brew openssl@3
+brew p11-kit
+brew pango
+brew pcalc
+brew pcre
+brew pcre2
+brew pinentry
+brew pixman
+brew pkg-config
+brew plantuml
+brew postgresql
+brew pyenv
+brew pyenv-virtualenv
+brew python@3.10
+brew python@3.8
+brew python@3.9
+brew qemu
+brew rbenv
+brew readline
+brew rosa-cli
+brew ruby
+brew ruby-build
+brew shared-mime-info
+brew six
+brew snappy
+brew socat
+brew sqlite
+brew swiftlint
+brew talisman
+brew tcl-tk
+brew unbound
+brew vde
+brew wangle
+brew watch
+brew watchman
+brew webp
+brew wiremock-standalone
+brew x265
+brew xmlto
+brew xorgproto
+brew xz
+brew yarn
+brew zstd
+
+tap homebrew/bundle
+
+tap homebrew/cask-fonts
+cask font-fira-code
+
+tap homebrew/cask-versions
+
+tap homebrew/services
+
+tap homebrew/cask
+cask 1password
+cask 1password-cli
+cask adobe-acrobat-pro
+cask adoptopenjdk
+cask aerial
+cask android-platform-tools
+cask android-studio
+cask appcode
+cask firefox
+cask flux
+cask gimp
+cask google-chrome
+cask google-drive
+cask google-drive-file-stream
+cask grandperspective
+cask insomnia
+cask intellij-idea
+cask iterm2
+cask postman
+cask pycharm
+cask rubymine
+cask slack
+cask spectacle
+cask visual-studio-code
+cask webstorm
+cask workflowy
+cask zoom
+
+tap adoptopenjdk/openjdk
+cask adoptopenjdk11
+cask adoptopenjdk15
+
+tap rcmdnk/file
+brew brew-file
+
+tap thoughtbot/formulae
+brew gitsh
+
+tap vapor/tap
+
+# App Store applications
+appstore 1569813296  1Password for Safari  (2.3.6)
+appstore 1402042596  AdBlock               (1.28.2)
+appstore 682658836   GarageBand            (10.4.6)
+appstore 409183694   Keynote               (12.1)
+appstore 409203825   Numbers               (12.1)
+appstore 409201541   Pages                 (12.1)
+appstore 403504866   PCalc                 (4.10.3)
+appstore 497799835   Xcode                 (13.4.1)
