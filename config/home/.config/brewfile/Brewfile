@@ -5,6 +5,7 @@ tap homebrew/core
 brew aom
 brew apache-spark
 brew autoconf
+brew autossh
 brew awscli
 brew azure-cli
 brew bash-git-prompt
@@ -196,6 +197,8 @@ cask grandperspective
 cask insomnia
 cask intellij-idea
 cask iterm2
+cask meetingbar
+cask nordvpn
 cask postman
 cask pycharm
 cask rubymine
@@ -219,11 +222,11 @@ brew gitsh
 tap vapor/tap
 
 # App Store applications
-appstore 1569813296  1Password for Safari  (2.3.6)
+appstore 1569813296  1Password for Safari  (2.3.7)
 appstore 1402042596  AdBlock               (1.28.2)
 appstore 682658836   GarageBand            (10.4.6)
 appstore 409183694   Keynote               (12.1)
 appstore 409203825   Numbers               (12.1)
 appstore 409201541   Pages                 (12.1)
-appstore 403504866   PCalc                 (4.10.3)
+appstore 403504866   PCalc                 (4.10.4)
 appstore 497799835   Xcode                 (13.4.1)
