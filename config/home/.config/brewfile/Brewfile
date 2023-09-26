@@ -1,31 +1,71 @@
 
 # tap repositories and their packages
 
-tap homebrew/core
+tap homebrew/bundle
+
+tap homebrew/cask-fonts
+cask font-fira-code
+
+tap homebrew/cask-versions
+cask zulu11
+
+tap homebrew/services
+
+tap adoptopenjdk/openjdk
+cask adoptopenjdk11
+cask adoptopenjdk15
+
+tap rcmdnk/file
+brew brew-file
+
+tap simoleone/tap
+
+tap thoughtbot/formulae
+brew gitsh
+
+tap vapor/tap
+
+# Other Homebrew packages
+brew abseil
 brew aom
+brew apache-arrow
 brew apache-spark
 brew autoconf
 brew autossh
+brew aws-sdk-cpp
 brew awscli
 brew azure-cli
 brew bash-git-prompt
 brew bdw-gc
 brew boost
 brew brotli
+brew bzip2
 brew c-ares
 brew ca-certificates
 brew cairo
+brew capstone
 brew carthage
+brew cffi
+brew cfitsio
+brew cgal
 brew cloc
 brew cocoapods
 brew colima
+brew coreutils
 brew docbook
 brew docbook-xsl
 brew docker
+brew docker-completion
 brew docker-compose
+brew docutils
 brew double-conversion
+brew dtc
+brew edencommon
+brew eigen
+brew epsilon
 brew exa
 brew exercism
+brew expat
 brew fb303
 brew fbthrift
 brew file-formula
@@ -35,15 +75,21 @@ brew fmt
 brew folly
 brew fontconfig
 brew freetype
+brew freexl
 brew fribidi
+brew gcc
 brew gd
+brew gdal
 brew gdbm
 brew gdk-pixbuf
+brew geos
 brew gettext
 brew gflags
+brew gh
 brew ghostscript
 brew giflib
 brew git
+brew git-lfs
 brew glib
 brew glog
 brew gmp
@@ -54,43 +100,65 @@ brew gobject-introspection
 brew gradle
 brew graphite2
 brew graphviz
+brew grpc
+brew grpc@1.54
 brew gts
 brew guile
 brew harfbuzz
+brew hdf5
+brew highway
 brew htop
 brew icu4c
 brew imagemagick
 brew imath
+brew isl
 brew jasper
 brew jbig2dec
 brew jpeg
+brew jpeg-turbo
 brew jpeg-xl
 brew jq
+brew json-c
+brew jsoncpp
+brew k9s
 brew krb5
 brew kubernetes-cli
 brew leiningen
+brew libaec
+brew libarchive
 brew libassuan
 brew libavif
+brew libb2
+brew libdap
 brew libde265
 brew libevent
 brew libffi
 brew libgcrypt
+brew libgeotiff
+brew libgit2
 brew libgpg-error
 brew libheif
 brew libidn
 brew libidn2
+brew libkml
 brew libksba
+brew liblerc
 brew liblqr
 brew libmagic
+brew libmpc
 brew libnghttp2
 brew libomp
 brew libpng
+brew libpq
 brew libpthread-stubs
 brew libraw
 brew librsvg
+brew librttopo
 brew libslirp
 brew libsodium
+brew libspatialite
 brew libssh
+brew libssh2
 brew libtasn1
 brew libtiff
 brew libtool
@@ -103,6 +171,7 @@ brew libxau
 brew libxcb
 brew libxdmcp
 brew libxext
+brew libxml2
 brew libxrender
 brew libyaml
 brew lima
@@ -112,16 +181,24 @@ brew lzo
 brew m4
 brew mas
 brew maven
+brew minizip
 brew mpdecimal
+brew mpfr
 brew ncurses
+brew netcdf
 brew netpbm
 brew nettle
 brew node
 brew npth
+brew nspr
+brew nss
+brew numpy
 brew oniguruma
+brew openblas
 brew openexr
 brew openjdk
 brew openjdk@11
+brew openjdk@17
 brew openjpeg
 brew openshift-cli
 brew openssl@1.1
@@ -135,18 +212,29 @@ brew pinentry
 brew pixman
 brew pkg-config
 brew plantuml
-brew postgresql
+brew poppler
+brew popt
+brew proj
+brew protobuf
+brew protobuf-c
+brew protobuf@21
+brew pycparser
 brew pyenv
 brew pyenv-virtualenv
 brew python@3.10
+brew python@3.11
 brew python@3.8
 brew python@3.9
 brew qemu
+brew qhull
+brew rapidjson
 brew rbenv
+brew re2
 brew readline
 brew rosa-cli
 brew ruby
 brew ruby-build
+brew sfcgal
 brew shared-mime-info
 brew six
 brew snappy
@@ -155,7 +243,11 @@ brew sqlite
 brew swiftlint
 brew talisman
 brew tcl-tk
+brew thrift
 brew unbound
+brew unixodbc
+brew uriparser
+brew utf8proc
 brew vde
 brew wangle
 brew watch
@@ -163,23 +255,15 @@ brew watchman
 brew webp
 brew wiremock-standalone
 brew x265
+brew xerces-c
 brew xmlto
 brew xorgproto
 brew xz
 brew yarn
+brew z3
 brew zstd
 
-tap homebrew/bundle
-
-tap homebrew/cask-fonts
-cask font-fira-code
-
-tap homebrew/cask-versions
-cask adoptopenjdk8
-
-tap homebrew/services
-
-tap homebrew/cask
+# Other Cask applications
 cask 1password
 cask 1password-cli
 cask adoptopenjdk
@@ -187,6 +271,7 @@ cask aerial
 cask android-platform-tools
 cask android-studio
 cask appcode
+cask drawio
 cask firefox
 cask flux
 cask gimp
@@ -209,24 +294,13 @@ cask webstorm
 cask workflowy
 cask zoom
 
-tap adoptopenjdk/openjdk
-cask adoptopenjdk11
-cask adoptopenjdk15
-
-tap rcmdnk/file
-brew brew-file
-
-tap thoughtbot/formulae
-brew gitsh
-
-tap vapor/tap
-
 # App Store applications
-appstore 1569813296  1Password for Safari  (2.3.7)
-appstore 1402042596  AdBlock               (1.28.2)
-appstore 682658836   GarageBand            (10.4.6)
-appstore 409183694   Keynote               (12.1)
-appstore 409203825   Numbers               (12.1)
-appstore 409201541   Pages                 (12.1)
-appstore 403504866   PCalc                 (4.10.4)
-appstore 497799835   Xcode                 (13.4.1)
+appstore 1569813296  1Password for Safari           (2.15.1)
+appstore 682658836   GarageBand                     (10.4.8)
+appstore 1436953057  Ghostery – Privacy Ad Blocker  (10.1.3)
+appstore 409183694   Keynote                        (13.2)
+appstore 409203825   Numbers                        (13.2)
+appstore 409201541   Pages                          (13.2)
+appstore 403504866   PCalc                          (4.10.8)
+appstore 1496833156  Playgrounds                    (4.3.1)
+appstore 497799835   Xcode                          (15.0)

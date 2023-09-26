@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+if ! command -v java &> /dev/null
+then
+  echo "java must be accessible from command line"
+  exit 1
+fi
+
+if ! [ -f ~/jar/plantuml.jar ]
+then
+  echo "Please symlink plantuml.jar to ~/jar/plantuml.jar"
+  exit 1
+fi
+
+if [ -z "$1" ]
+then
+  echo "Please specify a valid puml file to proceed"
+  exit 1
+fi
+
+puml_file=$1
+
+if ! [ -f $puml_file ]
+then
+  echo "The file "$puml_file" does not exist"
+  exit 1
+fi
+
+arr=(${puml_file//\./ })
+image_file=${arr[0]}".png"
+
+java -jar ~/jar/plantuml.jar $puml_file && \
+  open $image_file
+

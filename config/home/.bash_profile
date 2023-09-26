@@ -23,5 +23,8 @@ if [ -f "$(brew --prefix bash-git-prompt)/share/gitprompt.sh" ]; then
   source "$(brew --prefix bash-git-prompt)/share/gitprompt.sh"
 fi
 
-eval "$(rbenv init -)"
+eval "$(rbenv init - bash)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+java_use 11
+

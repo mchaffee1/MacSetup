@@ -1,4 +1,8 @@
 fileignoreconfig:
+- filename: config/home/.bash_profile
+  checksum: ff2badb84036d756e9c59320445dd3cac0859ebecbf2438ce80a1dc16408ddd5
+- filename: config/home/.bashrc
+  checksum: 8f7ca0dc550df16c0c5cfb046459be6ebda36d1b1d6f09fa55099354e16a6c4a
 - filename: config/home/.profile
-  checksum: 8ce5964de893f43a3556bab0bfd1d04beb49fd474676e8dfc025e6f84a96607f
+  checksum: 57537ef722148b52033ae7e506316f74d90b8c1907e888ce46cf82bc13a1119a
 version: "1.0"

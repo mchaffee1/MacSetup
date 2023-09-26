@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+colima start --cpu 2 --memory 4 --disk 100
+
