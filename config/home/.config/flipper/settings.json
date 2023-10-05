@@ -1,0 +1,25 @@
+{
+  "androidHome": "/opt/android_sdk",
+  "enableAndroid": true,
+  "enableIOS": true,
+  "enablePhysicalIOS": true,
+  "enablePrefetching": 2,
+  "idbPath": "/opt/homebrew/bin/idb",
+  "reactNative": {
+    "shortcuts": {
+      "enabled": false,
+      "reload": "Alt+Shift+R",
+      "openDevMenu": "Alt+Shift+D"
+    }
+  },
+  "darkMode": "light",
+  "showWelcomeAtStartup": true,
+  "suppressPluginErrors": false,
+  "persistDeviceData": false,
+  "enablePluginMarketplace": false,
+  "marketplaceURL": "",
+  "enablePluginMarketplaceAutoUpdate": true,
+  "server": {
+    "enabled": false
+  }
+}

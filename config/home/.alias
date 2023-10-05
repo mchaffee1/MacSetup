@@ -2,6 +2,7 @@
 alias a='alias'
 
 a be='bundle exec'
+a bl='bash --login'
 a cl="clear && printf '\e[3J'"
 a cwf='cyclewifi'
 a dh='du -h -d'

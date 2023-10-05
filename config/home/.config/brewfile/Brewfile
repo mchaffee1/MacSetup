@@ -15,6 +15,10 @@ tap adoptopenjdk/openjdk
 cask adoptopenjdk11
 cask adoptopenjdk15
 
+tap facebook/fb
+brew idb-companion
+brew watchman
+
 tap rcmdnk/file
 brew brew-file
 
@@ -251,7 +255,6 @@ brew utf8proc
 brew vde
 brew wangle
 brew watch
-brew watchman
 brew webp
 brew wiremock-standalone
 brew x265
@@ -273,11 +276,10 @@ cask android-studio
 cask appcode
 cask drawio
 cask firefox
+cask flipper
 cask flux
 cask gimp
 cask google-chrome
-cask google-drive
-cask google-drive-file-stream
 cask grandperspective
 cask insomnia
 cask intellij-idea
@@ -296,8 +298,7 @@ cask zoom
 
 # App Store applications
 appstore 1569813296  1Password for Safari           (2.15.1)
-appstore 682658836   GarageBand                     (10.4.8)
-appstore 1436953057  Ghostery – Privacy Ad Blocker  (10.1.3)
+appstore 1436953057  Ghostery – Privacy Ad Blocker  (10.2.0)
 appstore 409183694   Keynote                        (13.2)
 appstore 409203825   Numbers                        (13.2)
 appstore 409201541   Pages                          (13.2)
